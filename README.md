@@ -36,13 +36,5 @@
 
 ---
 
-## 🔗 API Endpoints Principali
-
-- **Lista prodotti:** `GET /api/prodotti`
-- **Prodotti per categoria:** `GET /api/prodotti?categoria={nome_categoria}`
-- **Dettaglio prodotto:** `GET /api/prodotti/{id}`
-
----
-
 
 
