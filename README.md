@@ -11,7 +11,7 @@
 3. Configura il database MySQL:
    - Assicurati che MySQL sia in esecuzione
    - Crea un database chiamato `prodotti`
-   - Modifica il file `src/main/resources/application.properties` con le tue credenziali MySQL
+   - Modifica il file `application.properties` con le tue credenziali MySQL
 4. Avvia il backend:
    ```bash
    mvn spring-boot:run
