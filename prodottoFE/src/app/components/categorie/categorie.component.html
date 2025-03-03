@@ -1,0 +1,12 @@
+<div class="container mt-4">
+  <h2>Seleziona una categoria:</h2>
+  <div class="list-group">
+    <button
+      *ngFor="let categoria of categorie"
+      class="list-group-item list-group-item-action"
+      (click)="vaiAProdotti(categoria)"
+    >
+      {{ categoria }}
+    </button>
+  </div>
+</div>

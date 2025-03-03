@@ -1,0 +1,16 @@
+<h2>Prodotti della categoria: {{ categoria }}</h2>
+<div class="row">
+  <div class="col-md-4" *ngFor="let prodotto of prodotti">
+    <div class="card">
+      <img
+        [src]="prodotto.immagine"
+        class="card-img-top"
+        alt="{{ prodotto.nome }}"
+      />
+      <div class="card-body">
+        <h5 class="card-title">{{ prodotto.nome }}</h5>
+        <p class="card-text">Prezzo: {{ prodotto.prezzo }}€</p>
+      </div>
+    </div>
+  </div>
+</div>
